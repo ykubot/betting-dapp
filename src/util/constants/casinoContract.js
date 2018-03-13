@@ -1,3 +1,4 @@
+/* eslint-disable */
 const address = '0x76c3128aa6a9ae77dfdc72f4a527878c27b8fc3b'
 const ABI = [{
     "constant": false,

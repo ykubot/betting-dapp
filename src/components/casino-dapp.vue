@@ -9,7 +9,7 @@ import HelloMetamask from '@/components/hello-metamask'
 import CasinoComponent from '@/components/casino-component'
 export default {
   name: 'casino-dapp',
-  beforeCreate() {
+  beforeCreate () {
     console.log('registerWeb3 Action dispatched from casino-dapp.vue')
     this.$store.dispatch('registerWeb3')
   },

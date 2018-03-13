@@ -78,11 +78,11 @@ li:active {
 <script>
 export default {
   name: 'casino',
-  mounted() {
+  mounted () {
     console.log('dispatching getContractInstance')
     this.$store.dispatch('getContractInstance')
   },
-  data() {
+  data () {
     return {
       amount: null,
       pending: false,
@@ -90,7 +90,7 @@ export default {
     }
   },
   methods: {
-    clickNumber(event) {
+    clickNumber (event) {
       console.log(event.target.innerHTML, this.amount)
       this.winEvent = null
       this.pending = true
